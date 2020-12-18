@@ -39,4 +39,4 @@ jobs:
           pip3 install --upgrade Cython==0.29.19 virtualenv
           export PATH=$PATH:~/.local/bin/
           buildozer init
-          buildozer -v android debug
+          echo 'y' | buildozer -v android debug
